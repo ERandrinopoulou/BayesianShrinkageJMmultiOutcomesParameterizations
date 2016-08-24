@@ -1,4 +1,4 @@
-# BayesianShinkageJMmultiOutcomesParameterizations
+# BayesianShrinkageJMmultiOutcomesParameterizations
 ## Bayesian shrinkage approach for a joint model of longitudinal and survival outcomes assuming different association structures
 
 This repository includes the code for a Bayesian shinkage approach that models multiple longitudinal (2 continuous and 1 binary) outcomes together with a time-to-event assuming different association structures. 

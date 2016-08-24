@@ -13,12 +13,12 @@ source("PrepareData.R")
 ################################################
 # Save model as txt
 source("ModelJAGS.R")
-filename <- file.path("JMsuper_pbc2LASSO.txt")
+filename <- file.path("JM_pbc2LASSO.txt")
 write.model(model, filename)
 
 ################################################
 # run model in jags
-model.fit <- jags.model(file = "JMsuper_pbc2LASSO.txt", data = Data, n.chains = con$n.chains, 
+model.fit <- jags.model(file = "JM_pbc2LASSO.txt", data = Data, n.chains = con$n.chains, 
                         n.adapt = con$n.adapt, quiet = con$quiet)
 
 

@@ -162,8 +162,8 @@ Zs3 <- model.matrix(formYz3, mfZ3)
 
 #################################
 # set MCMC details
-con <- list(program = "JAGS", n.chains = 1, n.iter = 100000,
-            n.burnin = 50000, n.thin = 20, n.adapt = 10000, K = 100,
+con <- list(program = "JAGS", n.chains = 1, n.iter = 50000,
+            n.burnin = 25000, n.thin = 10, n.adapt = 10000, K = 100,
             C = 5000, working.directory = getwd(), bugs.directory = "C:/Program Files/WinBUGS14/",
             openbugs.directory = NULL, clearWD = TRUE, over.relax = TRUE,
             knots = NULL, ObsTimes.knots = TRUE, lng.in.kn = 5, ordSpline = 4,

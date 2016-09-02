@@ -1,7 +1,7 @@
 # BayesianShrinkageJMmultiOutcomesParameterizations
 ## Bayesian shrinkage approach for a joint model of longitudinal and survival outcomes assuming different association structures
 
-This repository includes the code for a Bayesian shrinkage approach that models multiple longitudinal (2 continuous and 1 binary) outcomes together with a time-to-event assuming different association structures (underlying value, slope and area). 
+This repository includes the code for a Bayesian shrinkage approach that models multiple longitudinal (2 continuous and 1 binary) outcomes together with a time-to-event assuming different association structures (value, slope and area). 
 
 Specifically:
 * "**ModelJAGS**": includes the joint model for jags.
